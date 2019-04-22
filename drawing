@@ -1,0 +1,43 @@
+push
+move
+250 250 0
+rotate
+y -30
+sphere
+-100 100 0 75
+pop
+push
+move
+250 250 0
+rotate
+y -30
+sphere
+100 100 0 75
+pop
+push
+move
+250 250 0
+rotate
+z 30
+rotate
+y 30
+rotate
+x 30
+box
+-175 50 0 50 50 50
+box
+150 -100 0 50 50 50
+pop
+push
+move
+250 250 0
+rotate
+z 30
+rotate
+y 30
+rotate
+x 30
+torus
+-25 -100 0 10 100
+save
+pic.png
